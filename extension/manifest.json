@@ -1,0 +1,20 @@
+{
+  "name": "Discord RichPresence for Opera",
+  "description": "This will enable all websites on your discord profile.",
+  "icons": {
+    "128": "assets/opera-logo.png"
+  },
+  "browser_action": {
+    "default_icon": "assets/opera-logo.png"
+  },
+  "version": "1.0",
+  "manifest_version": 2,
+  "background": {
+      "scripts": ["Rich.js"],
+      "persistent": true
+    },
+  "permissions": [
+    "http://127.0.0.1/*",
+    "tabs"
+  ]
+}
